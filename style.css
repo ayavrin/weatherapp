@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Roboto Condensed", sans-serif;
+    ;
+
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap:1.5em;
+    background-color: burlywood;
+}
+div.weatherData{
+    border-radius: 30px;
+    width: 320px;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+form{
+    display: flex;
+    gap: 10px;
+}
+input#city{
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    background-color:white;
+    width: 240px;
+    
+}
+button#button{
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    border-radius: 50%;
+    align-self: center;
+    
+}
+#button:hover{
+    background-color: #a3d0fed4;
+    cursor: pointer;
+
+}
+
+.box{
+    width: 80%;
+    height: 80%;
+}
+.box .tempimg{
+    display:block;
+    margin: auto;
+}
+.box .middle{
+    text-align: center;
+    margin-top: 2px;
+}
+.box .mainTemp{
+    font-size: 40px;
+    color: rgb(111, 106, 106);
+
+}
+.box .icon2{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top:2px;
+}
+.box .icon1{
+    position: relative;
+    top:2px;
+    height: 20px;
+    width: 20px;
+}
