@@ -70,7 +70,7 @@ const initApp=()=>{
 
     //url constructor for lat and long
     const urlMaker=()=>{
-        return `http://api.openweathermap.org/geo/1.0/direct?q=${city.value}&appid=${apiKey}`;
+        return `https://api.openweathermap.org/geo/1.0/direct?q=${city.value}&appid=${apiKey}`;
 
     }
 
